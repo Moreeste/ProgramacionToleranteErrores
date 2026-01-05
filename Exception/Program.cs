@@ -1,0 +1,19 @@
+﻿try
+{
+    Console.WriteLine("Escribe un número: ");
+    int a = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Escribe otro número: ");
+    int b = Convert.ToInt32(Console.ReadLine());
+
+    int result = a / b;
+    Console.WriteLine("El resultado de la división es: " + result);
+}
+catch(Exception ex)
+{
+    Console.WriteLine("Ocurrió un error: " + ex.Message);
+}
+finally
+{
+    Console.WriteLine("Programa finalizado");
+}

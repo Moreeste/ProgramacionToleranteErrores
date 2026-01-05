@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Exceptions/">
+    <Project Path="Exception/Exception.csproj" />
+  </Folder>
+</Solution>
