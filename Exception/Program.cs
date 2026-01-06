@@ -10,6 +10,11 @@ do
         Console.WriteLine("Escribe otro número: ");
         int b = Convert.ToInt32(Console.ReadLine());
 
+        if (a < 0 || b <0)
+        {
+            throw new Exception("No se permiten números negativos");
+        }
+
         int result = a / b;
         Console.WriteLine("El resultado de la división es: " + result);
 
