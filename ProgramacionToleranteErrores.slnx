@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Exceptions/">
     <Project Path="Exception/Exception.csproj" />
+    <Project Path="ExceptionPerformance/ExceptionPerformance.csproj" Id="d7941efb-49d0-47dc-919e-88e10144ffb1" />
   </Folder>
 </Solution>
