@@ -9,7 +9,19 @@
     int result = a / b;
     Console.WriteLine("El resultado de la división es: " + result);
 }
-catch(Exception ex)
+catch (FormatException ex)
+{
+    Console.WriteLine("Debes escribir números");
+}
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine("No puedes dividir entre cero");
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine("Escribe números pequeños");
+}
+catch (Exception ex)
 {
     Console.WriteLine("Ocurrió un error: " + ex.Message);
 }
