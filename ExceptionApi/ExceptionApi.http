@@ -1,0 +1,6 @@
+@ExceptionApi_HostAddress = http://localhost:5103
+
+GET {{ExceptionApi_HostAddress}}/products/1
+Accept: application/json
+
+###
