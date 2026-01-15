@@ -7,6 +7,7 @@
   </Folder>
   <Folder Name="/Validations/">
     <Project Path="DataAnnotationsApi/DataAnnotationsApi.csproj" Id="a6800ece-84bf-4a7b-a391-0b30f1d2446c" />
+    <Project Path="FluentValidationApi/FluentValidationApi.csproj" Id="08a6c1f4-39f0-4a76-a7f8-e5494416e029" />
     <Project Path="ManualValidations/ManualValidations.csproj" Id="5553b250-b50b-4f47-b13b-ab1e55341df1" />
     <Project Path="NullReference/NullReference.csproj" Id="c9f30d9b-d6c0-46e8-a670-780160bfe92f" />
     <Project Path="RegexValidations/RegexValidations.csproj" Id="a740d513-7948-4430-b4e6-32206a328dfe" />
