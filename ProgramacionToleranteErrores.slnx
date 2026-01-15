@@ -5,4 +5,7 @@
     <Project Path="ExceptionPerformance/ExceptionPerformance.csproj" Id="d7941efb-49d0-47dc-919e-88e10144ffb1" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="df5e3413-de12-431b-9fa3-d3b0483e40cd" />
   </Folder>
+  <Folder Name="/Validations/">
+    <Project Path="ManualValidations/ManualValidations.csproj" Id="5553b250-b50b-4f47-b13b-ab1e55341df1" />
+  </Folder>
 </Solution>
