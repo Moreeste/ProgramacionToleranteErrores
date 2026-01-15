@@ -8,5 +8,6 @@
   <Folder Name="/Validations/">
     <Project Path="ManualValidations/ManualValidations.csproj" Id="5553b250-b50b-4f47-b13b-ab1e55341df1" />
     <Project Path="NullReference/NullReference.csproj" Id="c9f30d9b-d6c0-46e8-a670-780160bfe92f" />
+    <Project Path="RegexValidations/RegexValidations.csproj" Id="a740d513-7948-4430-b4e6-32206a328dfe" />
   </Folder>
 </Solution>
