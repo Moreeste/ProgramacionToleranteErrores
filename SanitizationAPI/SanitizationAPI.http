@@ -8,12 +8,7 @@ Content-Type: application/json
   "Email": "JOHN@MAIL.COM ",
   "Phone": "  +1 (555)  123-4567  ",
   "Description": " Hola 234 a    todos..  || +.+´')( ",
-  "Content": "<di>
-                <h1>Hola</h1>
-                <script>alert('XSS');</script>
-                <p>texto</p>
-                <script>console.log('otro script')</script>>
-              </div>"
+  "Content": "<div><h1>Hola</h1><script>alert('XSS');</script><p>texto</p><script>console.log('otro script')</script>></div>"
 }
 
 ###
