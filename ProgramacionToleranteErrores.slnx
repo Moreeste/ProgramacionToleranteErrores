@@ -21,6 +21,7 @@
     <Project Path="ResultPatternCombine/ResultPatternCombine.csproj" Id="5e98d6e7-57b0-4021-b123-e7473be89416" />
   </Folder>
   <Folder Name="/Retry/">
+    <Project Path="ApiRetry/ApiRetry.csproj" Id="1be4a34b-ac4f-4fcb-b3c7-9e1ec6e9d836" />
     <Project Path="AsyncRetry/AsyncRetry.csproj" Id="40515730-0a1f-4bd2-ae4c-418f9187bde7" />
     <Project Path="BasicRetry/BasicRetry.csproj" Id="bd01459a-b898-4906-93fb-6fa4e50c60f1" />
     <Project Path="PollyRetry/PollyRetry.csproj" Id="3af8288a-dec1-4d67-b6e1-a71a96a3b4ee" />

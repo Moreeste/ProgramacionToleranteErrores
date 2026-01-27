@@ -1,0 +1,11 @@
+@ApiRetry_HostAddress = http://localhost:5071
+
+GET {{ApiRetry_HostAddress}}/checkstatus/
+Accept: application/json
+
+###
+
+GET {{ApiRetry_HostAddress}}/checkstatussimplemode/
+Accept: application/json
+
+###
