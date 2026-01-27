@@ -21,6 +21,7 @@
     <Project Path="ResultPatternCombine/ResultPatternCombine.csproj" Id="5e98d6e7-57b0-4021-b123-e7473be89416" />
   </Folder>
   <Folder Name="/Retry/">
+    <Project Path="AsyncRetry/AsyncRetry.csproj" Id="40515730-0a1f-4bd2-ae4c-418f9187bde7" />
     <Project Path="BasicRetry/BasicRetry.csproj" Id="bd01459a-b898-4906-93fb-6fa4e50c60f1" />
   </Folder>
   <Folder Name="/Sanitization/">
