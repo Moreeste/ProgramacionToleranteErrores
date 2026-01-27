@@ -20,6 +20,9 @@
     <Project Path="ResultPatternCollection/ResultPatternCollection.csproj" Id="0e466289-3b29-4e46-8013-78614835bcc1" />
     <Project Path="ResultPatternCombine/ResultPatternCombine.csproj" Id="5e98d6e7-57b0-4021-b123-e7473be89416" />
   </Folder>
+  <Folder Name="/Retry/">
+    <Project Path="BasicRetry/BasicRetry.csproj" Id="bd01459a-b898-4906-93fb-6fa4e50c60f1" />
+  </Folder>
   <Folder Name="/Sanitization/">
     <Project Path="SanitizationAPI/SanitizationAPI.csproj" Id="1e6d373c-0664-4f72-9186-763de27fde07" />
   </Folder>
