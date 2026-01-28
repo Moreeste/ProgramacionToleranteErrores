@@ -4,3 +4,9 @@ GET {{CircuitBreakerApi_HostAddress}}/posts/
 Accept: application/json
 
 ###
+
+GET {{CircuitBreakerApi_HostAddress}}/advancedposts/
+Accept: application/json
+
+###
+
