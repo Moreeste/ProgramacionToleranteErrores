@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/CircuitBreaker/">
+    <Project Path="CircuitBreakerApi/CircuitBreakerApi.csproj" Id="f1db70bb-97cd-4737-8f57-6a7f4798e77c" />
     <Project Path="IntroCircuitBreaker/IntroCircuitBreaker.csproj" Id="8eb05e36-7c71-4fb6-8462-a969f583d920" />
     <Project Path="ResetCircuitBreaker/ResetCircuitBreaker.csproj" Id="fb4b6389-8d8e-49de-9cea-b2e44858ad57" />
   </Folder>

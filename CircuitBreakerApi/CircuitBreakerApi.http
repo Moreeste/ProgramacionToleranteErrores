@@ -1,0 +1,6 @@
+@CircuitBreakerApi_HostAddress = http://localhost:5240
+
+GET {{CircuitBreakerApi_HostAddress}}/posts/
+Accept: application/json
+
+###
