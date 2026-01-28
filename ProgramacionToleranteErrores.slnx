@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/CircuitBreaker/">
+    <Project Path="IntroCircuitBreaker/IntroCircuitBreaker.csproj" Id="8eb05e36-7c71-4fb6-8462-a969f583d920" />
+  </Folder>
   <Folder Name="/Exceptions/">
     <Project Path="Exception/Exception.csproj" />
     <Project Path="ExceptionApi/ExceptionApi.csproj" Id="375a219f-3b76-4f6d-ae58-2e684aba66f6" />
