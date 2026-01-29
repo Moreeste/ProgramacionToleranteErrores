@@ -18,7 +18,8 @@ try
 {
     await timeoutPolicy.ExecuteAsync(async (context) =>
     {
-        await Operation(TimeSpan.FromSeconds(10));
+        //await Operation(TimeSpan.FromSeconds(10));
+        await Execute();
     }, context);
 }
 catch (TimeoutRejectedException)
@@ -30,8 +31,20 @@ catch (Exception ex)
     Console.WriteLine($"Otra excepción: {ex.Message}");
 }
 
+Console.WriteLine("Observando durante 5 seg para ver si se sigue ejecutando");
+await Task.Delay(5000);
+
 async Task Operation(TimeSpan delay)
 {
     Console.WriteLine("Haciendo algo...");
     await Task.Delay(delay);
+}
+
+async Task Execute()
+{
+    while(true)
+    {
+        Console.WriteLine("Haciendo algo");
+        await Task.Delay(1000);
+    }
 }
