@@ -39,6 +39,7 @@
     <Project Path="IntroTimeout/IntroTimeout.csproj" Id="82e0abbb-302e-4711-b9e4-d841a250322e" />
     <Project Path="ManualCancellationTimeout/ManualCancellationTimeout.csproj" Id="be942fef-96cd-4485-a2c5-4728fe9427f2" />
     <Project Path="OptimisticTimeout/OptimisticTimeout.csproj" Id="c3b6182e-19e8-4c8a-afb6-f1a6935707bc" />
+    <Project Path="TimeoutApi/TimeoutApi.csproj" Id="fc596a58-ad0a-4917-a356-4cb809e33bc2" />
   </Folder>
   <Folder Name="/Validations/">
     <Project Path="DataAnnotationsApi/DataAnnotationsApi.csproj" Id="a6800ece-84bf-4a7b-a391-0b30f1d2446c" />
