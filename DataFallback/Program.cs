@@ -2,7 +2,7 @@
 using System.Text.Json;
 
 var fileName = "posts.json";
-var url ="https://jsonplaceholder.typicode.com/posts";
+var url ="https://jsonplaceholder2.typicode.com/posts";
 
 var fallbackPolicy = Policy<List<Post>>.Handle<HttpRequestException>()
 						.FallbackAsync(
@@ -16,7 +16,20 @@ var fallbackPolicy = Policy<List<Post>>.Handle<HttpRequestException>()
                             }
 						);
 
-var posts = await fallbackPolicy.ExecuteAsync(async () =>
+var retryPolicy = Policy<List<Post>>.Handle<HttpRequestException>()
+						.WaitAndRetryAsync(
+							retryCount: 3,
+							sleepDurationProvider: attempt => TimeSpan.FromSeconds(2),
+							onRetry: (outcome, timeSpan, retryCount, context) =>
+							{
+								Console.WriteLine($"Retry {retryCount} en {timeSpan.TotalSeconds} segundos");
+								Console.WriteLine($"Motivo: {outcome.Exception?.Message}");
+							}
+						);
+
+var combinedPolicies = Policy.WrapAsync(fallbackPolicy, retryPolicy);
+
+var posts = await combinedPolicies.ExecuteAsync(async () =>
 {
     Console.WriteLine("Solicitud al servicio");
 
