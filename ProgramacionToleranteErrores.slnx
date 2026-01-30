@@ -10,6 +10,9 @@
     <Project Path="ExceptionPerformance/ExceptionPerformance.csproj" Id="d7941efb-49d0-47dc-919e-88e10144ffb1" />
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="df5e3413-de12-431b-9fa3-d3b0483e40cd" />
   </Folder>
+  <Folder Name="/Fallback/">
+    <Project Path="IntroFallback/IntroFallback.csproj" Id="fae284fc-3c36-4192-a48a-82751ee45699" />
+  </Folder>
   <Folder Name="/Logging/">
     <Project Path="ApiWithLogs/ApiWithLogs.csproj" Id="1ab1442e-26c5-4c64-a164-a43446f5812a" />
     <Project Path="Intro/Intro.csproj" Id="bd990966-7b83-4ec4-abc5-a58faac6bebc" />
