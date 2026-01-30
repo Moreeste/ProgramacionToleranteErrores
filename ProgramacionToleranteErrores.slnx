@@ -11,6 +11,7 @@
     <Project Path="ProductRepository-Exception/ProductRepository-Exception.csproj" Id="df5e3413-de12-431b-9fa3-d3b0483e40cd" />
   </Folder>
   <Folder Name="/Fallback/">
+    <Project Path="DataFallback/DataFallback.csproj" Id="71e12709-cb06-42e6-a424-7cdfa563c1fc" />
     <Project Path="IntroFallback/IntroFallback.csproj" Id="fae284fc-3c36-4192-a48a-82751ee45699" />
   </Folder>
   <Folder Name="/Logging/">
