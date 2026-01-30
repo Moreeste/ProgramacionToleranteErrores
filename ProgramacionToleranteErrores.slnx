@@ -12,6 +12,7 @@
   </Folder>
   <Folder Name="/Fallback/">
     <Project Path="DataFallback/DataFallback.csproj" Id="71e12709-cb06-42e6-a424-7cdfa563c1fc" />
+    <Project Path="FormFallback/FormFallback.csproj" Id="d2582878-f497-4a94-89a9-7e3165c17966" />
     <Project Path="IntroFallback/IntroFallback.csproj" Id="fae284fc-3c36-4192-a48a-82751ee45699" />
   </Folder>
   <Folder Name="/Logging/">
